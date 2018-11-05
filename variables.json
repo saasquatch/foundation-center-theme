@@ -1425,19 +1425,32 @@
                "properties":{
                   "headerImageUrl":{
                      "type":"string",
-                     "title":"Header Image URL",
+                     "title":"Company Logo URL",
                      "propertyOrder":1,
+                     "default":"https://res.cloudinary.com/saasquatch/image/upload/v1541202877/fdo-logo-color_iqdyqz.png",
                      "options":{
                         "validate":[
                            "handlebars"
                         ]
                      }
                   },
+                  "headerTitle":{
+                    "type": "string",
+                    "title": "Heading Title",
+                    "format": "markdown",
+                    "propertyOrder":2,
+                    "default": "Congratuations",
+                    "options":{
+                      "validate":[
+                        "handlebars"
+                      ]
+                    }
+                  },
                   "headerContent":{
                      "type":"string",
                      "title":"Header Content",
                      "format":"markdown",
-                     "propertyOrder":2,
+                     "propertyOrder":3,
                      "options":{
                         "validate":[
                            "handlebars"
@@ -1445,11 +1458,22 @@
                         "input_height":"50px"
                      }
                   },
+                  "bodyTitle":{
+                    "type":"string",
+                    "title":"Body Title",
+                    "format":"markdown",
+                    "propertyOrder":4,
+                    "options":{
+                      "validate":[
+                        "handlebars"
+                      ]
+                    }
+                  },
                   "bodyContent":{
                      "type":"string",
                      "title":"Body Content",
                      "format":"markdown",
-                     "propertyOrder":3,
+                     "propertyOrder":5,
                      "options":{
                         "validate":[
                            "handlebars"
@@ -1478,7 +1502,7 @@
                      "type":"string",
                      "title":"Share Code CTA",
                      "format":"markdown",
-                     "propertyOrder":4,
+                     "propertyOrder":6,
                      "default":"Keep sharing your code and earn more discounts - **{{user.referralCode}}**",
                      "options":{
                         "validate":[
@@ -1487,18 +1511,12 @@
                         "input_height":"50px"
                      }
                   },
-                  "hasShareLink":{
-                     "type":"boolean",
-                     "format":"checkbox",
-                     "title":"Enable Share Link",
-                     "propertyOrder":5,
-                     "default":true
-                  },
+
                   "shareButtonHeader":{
                      "type":"string",
                      "title":"Share Button Header",
                      "format":"markdown",
-                     "propertyOrder":6,
+                     "propertyOrder":7,
                      "default":"Refer and Earn {{format-reward 'REFERRER' includeUnit=true includeContextualText=true}}",
                      "options":{
                         "validate":[
