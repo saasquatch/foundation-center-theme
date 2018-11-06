@@ -77,6 +77,100 @@ p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; mar
 		}
 </style>
 
+{{!-- default email style start --}}
+
+  <style type="text/css">
+    @media only screen and (min-width: 481px) {
+        td[class~="header-text"] h1 {
+          font-size: 36px !important;
+          color: #4797d2 !important;
+          text-align: center !important;
+          line-height: 1.5 !important;
+          font-weight: bold !important;
+          margin: 0 !important;
+          font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif' !important;
+      }
+      td[class~="header-text"] p {
+          font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif' !important;
+          font-size: 18px !important;
+          color: #121212 !important;
+          font-weight: normal !important;
+      }
+      td p {
+        margin: 0 !important;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      table[class*="container-for-gmail-android"] {
+        min-width: 320px !important; width: 100% !important;
+      }
+      table[class~="w320"] {
+        width: 320px !important;
+      }
+      td[class~="component"] {
+        padding: 25px !important;
+      }
+      td[class~="social"] {
+        padding: 25px !important;
+      }
+      td[class~="header-text"] {
+        font-size: 30px !important;
+      }
+      td[class~="header-text"] h1 {
+          font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif' !important;
+          font-size: 30px !important;
+          color: #4797d2 !important;
+          font-weight: bold !important;
+          margin: 0 !important;
+      }
+      td[class~="header-text"] p {
+          font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif' !important;
+          font-size: 18px !important;
+          color: #121212 !important;
+          font-weight: normal !important;
+      }
+      td[class~="header"] {
+        padding-left: 20px !important; padding-right: 20px !important;
+      }
+      table[class~="link-widget"] {
+        width: 270px !important;
+      }
+      td[class~="mobile-block"] {
+        display: block !important; padding-bottom: 10px !important;
+      }
+      a[class~="social-button"] {
+        width: 270px !important;
+      }
+      span[class~="social-button-text"] {
+        margin-left: -30px !important;
+      }
+      div[class~="hide-desktop"] {
+        max-height: none !important; display: block !important; font-size: 16px !important;
+      }
+      a[class~="hide"] {
+        max-height: 39px !important; font-size: 16px !important; line-height: 39px !important; padding-bottom: 10px !important; position: relative !important; background-image: url(https://res.cloudinary.com/dwde8d8fq/image/upload/v1444557921/social_mobile_17_njfexy.jpg); background-repeat: no-repeat; border-radius: 7px; display: inline-block;
+      }
+      span[class~="mobile-hide"] {
+        max-height: 0 !important; display: none !important; mso-hide: all !important; overflow: hidden !important; font-size: 0 !important;
+      }
+      a[class~="twitter"] {
+        background-image: url({{assets 'images/social_mobile_22.jpg'}}) !important;
+      }
+      a[class~="facebook"] {
+        background-image: url({{assets 'images/social_mobile_20.jpg'}}) !important;
+      }
+      a[class~="email"] {
+        background-image: url({{assets 'images/social_mobile_grey_20.jpg'}}) !important;
+      }
+      td p {
+        margin: 0 !important;
+      }
+    }
+  </style>
+
+  {{!-- default email style end --}}
+
 </head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 
