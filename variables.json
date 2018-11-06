@@ -1484,18 +1484,6 @@
                         "input_height":"50px"
                      }
                   },
-                  "bodyTitle":{
-                    "type":"string",
-                    "title":"Body Title",
-                    "format":"markdown",
-                    "propertyOrder":4,
-                    "options":{
-                      "validate":[
-                        "handlebars"
-                      ],
-                      "input_height":"25px"
-                    }
-                  },
                   "bodyContent":{
                      "type":"string",
                      "title":"Body Content",
