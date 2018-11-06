@@ -139,6 +139,19 @@
                                           ]
                                        }
                                     },
+                                    "widgetFooter":{
+                                      "type":"string",
+                                      "format":"markdown",
+                                      "title":"Footer Text",
+                                      "default":"*Refer a Friend reward only applicable for Prefessional Annual or Biennial plans purchased with credit card. <strong><a href='#'>Full terms and conditions</a></strong>.",
+                                      "options":{
+                                         "input_height":"100px",
+                                         "validate":[
+                                            "handlebars"
+                                         ]
+                                      }
+                                    },
+
                                     "registrationFields":{
                                        "title":"Required Registration Fields",
                                        "type":"object",
@@ -513,6 +526,18 @@
                                              "handlebars"
                                           ]
                                        }
+                                    },
+                                    "widgetFooter":{
+                                      "type":"string",
+                                      "format":"markdown",
+                                      "title":"Footer Text:",
+                                      "default":"*Refer a Friend reward only applicable for Prefessional Annual or Biennial plans purchased with credit card. <strong><a href='#'>Full terms and conditions</a></strong>.",
+                                      "options":{
+                                        "input_height":"100px",
+                                        "validate":[
+                                          "handlebars"
+                                        ]
+                                      }
                                     },
                                     "registrationFields":{
                                        "title":"Required Registration Fields",
