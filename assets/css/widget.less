@@ -131,6 +131,9 @@
 .input-group-btn:last-child>.btn {
   width: 136px;
   height: 34px;
+  @media (max-width: 499px) {
+    width: auto!important;
+  }
 }
 
 .btn-primary, .btn-email, .btn-twitter, .btn-facebook, #squatch-send-email {
@@ -217,4 +220,21 @@ body .squatch-container {
 .squatch-register {
   color: #fff;
   border-top: none;
+}
+
+.squatch-lead {
+  border-top: none;
+}
+
+.squatch-referrals-title {
+  @media (max-width: 499px) {
+    background: none!important;
+  }
+}
+
+.squatch-stats-item {
+  @media (max-width: 499px) {
+    background: none!important;
+    border: none!important;
+  }
 }
