@@ -1,7 +1,7 @@
 ---
-from: {{variables 'email.REFERRAL_CONVERTED.configuration.fromAddress'}}
-fromName: {{variables 'email.REFERRAL_CONVERTED.configuration.fromName'}}
-subject: {{variables 'email.REFERRAL_CONVERTED.configuration.subject'}}
+from: {{variables 'email.REFERRAL_STARTED.configuration.fromAddress'}}
+fromName: {{variables 'email.REFERRAL_STARTED.configuration.fromName'}}
+subject: {{variables 'email.REFERRAL_STARTED.configuration.subject'}}
 ---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -222,13 +222,13 @@ p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; mar
 												<table width="460" border="0" cellpadding="0" cellspacing="0" align="center" style="text-align: center; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
 													<tr>
 														<td align="center" valign="middle" width="100%" style="text-align: center; font-family: 'open-sans',Helvetica, Arial, sans-serif; font-size: 46px; color: rgb(0, 0, 0); line-height: 50px; font-weight: 100;"class="fullCenter" >
-														<img src="{{variables 'email.REFERRAL_CONVERTED.content.headerImageUrl'}}" style="display: inline-block; padding-bottom: 15px;"><br>
-															<!--[if !mso]><!--><span style="font-family: 'open-sans', Helvetica, Arial; font-weight: normal;"><!--<![endif]-->{{variables 'email.REFERRAL_CONVERTED.content.headerTitle'}}<!--[if !mso]><!--></span><!--<![endif]-->
+														<img src="{{variables 'email.REFERRAL_STARTED.content.headerImageUrl'}}" style="display: inline-block; padding-bottom: 15px;"><br>
+															<!--[if !mso]><!--><span style="font-family: 'open-sans', Helvetica, Arial; font-weight: normal;"><!--<![endif]-->{{variables 'email.REFERRAL_STARTED.content.headerTitle'}}<!--[if !mso]><!--></span><!--<![endif]-->
 														</td>
 													</tr>
 													<tr>
 														<td align="center" valign="middle" width="100%" style="text-align: center; font-family: 'open-sans',Helvetica, Arial, sans-serif; font-size: 24px; color: rgb(0, 0, 0); line-height: 30px; font-weight: 100;"class="fullCenter" >
-															<!--[if !mso]><!--><span style="font-family: 'open-sans', Helvetica, Arial; font-weight: bold; text-transform: uppercase;"><!--<![endif]--><br>{{variables 'email.REFERRAL_CONVERTED.content.headerContent'}}<!--[if !mso]><!--></span><!--<![endif]-->
+															<!--[if !mso]><!--><span style="font-family: 'open-sans', Helvetica, Arial; font-weight: bold; text-transform: uppercase;"><!--<![endif]--><br>{{variables 'email.REFERRAL_STARTED.content.headerContent'}}<!--[if !mso]><!--></span><!--<![endif]-->
 														</td>
 													</tr>
 													<tr>
@@ -275,13 +275,13 @@ p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; mar
 												<table width="450" border="0" cellpadding="0" cellspacing="0" align="center" style="text-align: center; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
 													<tr>
 														<td valign="middle" width="100%" style="text-align:center; font-family: 'open-sans',Helvetica, Arial, sans-serif; font-size: 16px; color: rgb(81, 81, 81); line-height: 27px;"class="fullCenter" >
-															<!--[if !mso]><!--><span style="font-family: 'open-sans', Helvetica, Arial; font-weight: normal;"><!--<![endif]-->{{variables 'email.REFERRAL_CONVERTED.content.giftcardBodyContent'}}  
+															<!--[if !mso]><!--><span style="font-family: 'open-sans', Helvetica, Arial; font-weight: normal;"><!--<![endif]-->{{variables 'email.REFERRAL_STARTED.content.giftcardBodyContent'}}  
 															 <!--[if !mso]><!--></span><!--<![endif]-->
 														</td>
 													</tr>
                           <tr>
 														<td valign="middle" width="100%" style="text-align:center; font-family: 'open-sans',Helvetica, Arial, sans-serif; font-size: 16px; color: rgb(81, 81, 81); line-height: 27px;"class="fullCenter" >
-															<!--[if !mso]><!--><span style="font-family: 'open-sans', Helvetica, Arial; font-weight: normal;"><!--<![endif]-->{{variables 'email.REFERRAL_CONVERTED.content.shareCTA'}}
+															<!--[if !mso]><!--><span style="font-family: 'open-sans', Helvetica, Arial; font-weight: normal;"><!--<![endif]-->{{variables 'email.REFERRAL_STARTED.content.shareCTA'}}
 															 <!--[if !mso]><!--></span><!--<![endif]-->
 														</td>
 													</tr>
@@ -331,7 +331,7 @@ p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; mar
                 <table cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse !important; font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif' !important;">
                   <tr style="font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif' !important;">
                     <td class="sub-header" style="border-collapse: collapse; font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif' !important; font-size: 18px; color: #121212; text-align: center; line-height: 1.5;" align="center">
-                      {{variables 'email.REFERRAL_CONVERTED.content.shareButtonHeader'}}
+                      {{variables 'email.REFERRAL_STARTED.content.shareButtonHeader'}}
                     </td>
                   </tr>
                 </table>
@@ -451,7 +451,7 @@ p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; mar
           
            <tr>
             <td align="center" class="fullCenter" style="text-align: center; font-family: 'open-sans',Helvetica, Arial, sans-serif; font-size: 13px; color: rgb(149, 149, 149); line-height: 27px;" valign="middle" width="552">
-             <!--[if !mso]><!--><span style="font-family: 'open-sans', Helvetica, Arial; font-weight: normal;"><!--<![endif]--> <span style="color:#ffffff;">{{variables 'email.REFERRAL_CONVERTED.content.footer'}}</span></span>
+             <!--[if !mso]><!--><span style="font-family: 'open-sans', Helvetica, Arial; font-weight: normal;"><!--<![endif]--> <span style="color:#ffffff;">{{variables 'email.REFERRAL_STARTED.content.footer'}}</span></span>
             </td></tr></table>
 			  <!-- End CopyRight -->
 
