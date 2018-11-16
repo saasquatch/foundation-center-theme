@@ -718,34 +718,37 @@
                               "twitterURL": {
                                  "type":"string",
                                  "title":"Twitter Link in Footer",
-                                 "format": "markdown",
                                  "propertyOrder": 300,
                                  "default": "http://",
                                  "options": {
                                     "input_height": "25px",
-                                    "hidden":true
+                                    "validate":[
+                                       "handlebars"
+                                    ]
                                  }
                               },
                               "facebookURL": {
                                  "type":"string",
                                  "title":"FaceBook Link in Footer",
-                                 "format": "markdown",
                                  "propertyOrder": 301,
                                  "default": "http://",
                                  "options": {
                                     "input_height": "25px",
-                                    "hidden":true
+                                    "validate":[
+                                       "handlebars"
+                                    ]
                                  }
                               },
                               "youtubeURL": {
                                  "type":"string",
                                  "title":"YouTube Link in Footer",
-                                 "format": "markdown",
                                  "propertyOrder": 302,
                                  "default": "http://",
                                  "options": {
                                     "input_height": "25px",
-                                    "hidden":true
+                                    "validate":[
+                                       "handlebars"
+                                    ]
                                  }
                               }
                            }
@@ -796,34 +799,37 @@
                               "twitterURL": {
                                  "type":"string",
                                  "title":"Twitter Link in Footer",
-                                 "format": "markdown",
                                  "propertyOrder": 300,
                                  "default": "http://",
                                  "options": {
                                     "input_height": "25px",
-                                    "hidden":true
+                                    "validate":[
+                                       "handlebars"
+                                    ]
                                  }
                               },
                               "facebookURL": {
                                  "type":"string",
                                  "title":"FaceBook Link in Footer",
-                                 "format": "markdown",
                                  "propertyOrder": 301,
                                  "default": "http://",
                                  "options": {
                                     "input_height": "25px",
-                                    "hidden":true
+                                    "validate":[
+                                       "handlebars"
+                                    ]
                                  }
                               },
                               "youtubeURL": {
                                  "type":"string",
                                  "title":"YouTube Link in Footer",
-                                 "format": "markdown",
                                  "propertyOrder": 302,
                                  "default": "http://",
                                  "options": {
                                     "input_height": "25px",
-                                    "hidden":true
+                                    "validate":[
+                                       "handlebars"
+                                    ]
                                  }
                               }
                            }
@@ -900,34 +906,37 @@
                               "twitterURL": {
                                  "type":"string",
                                  "title":"Twitter Link in Footer",
-                                 "format": "markdown",
                                  "propertyOrder": 300,
                                  "default": "http://",
                                  "options": {
                                     "input_height": "25px",
-                                    "hidden":true
+                                    "validate":[
+                                       "handlebars"
+                                    ]
                                  }
                               },
                               "facebookURL": {
                                  "type":"string",
                                  "title":"FaceBook Link in Footer",
-                                 "format": "markdown",
                                  "propertyOrder": 301,
                                  "default": "http://",
                                  "options": {
                                     "input_height": "25px",
-                                    "hidden":true
+                                    "validate":[
+                                       "handlebars"
+                                    ]
                                  }
                               },
                               "youtubeURL": {
                                  "type":"string",
                                  "title":"YouTube Link in Footer",
-                                 "format": "markdown",
                                  "propertyOrder": 302,
                                  "default": "http://",
                                  "options": {
                                     "input_height": "25px",
-                                    "hidden":true
+                                    "validate":[
+                                       "handlebars"
+                                    ]
                                  }
                               }
                            }
