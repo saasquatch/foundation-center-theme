@@ -714,6 +714,27 @@
                                        ]
                                     }
                                  }
+                              },
+                              "twitterURL": {
+                                 "type":"string",
+                                 "title":"Twitter Link in Footer",
+                                 "format": "markdown",
+                                 "propertyOrder": 300,
+                                 "default": "http://"
+                              },
+                              "facebookURL": {
+                                 "type":"string",
+                                 "title":"FaceBook Link in Footer",
+                                 "format": "markdown",
+                                 "propertyOrder": 301,
+                                 "default": "http://"
+                              },
+                              "youtubeURL": {
+                                 "type":"string",
+                                 "title":"YouTube Link in Footer",
+                                 "format": "markdown",
+                                 "propertyOrder": 302,
+                                 "default": "http://"
                               }
                            }
                         },
