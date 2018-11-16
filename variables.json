@@ -720,21 +720,30 @@
                                  "title":"Twitter Link in Footer",
                                  "format": "markdown",
                                  "propertyOrder": 300,
-                                 "default": "http://"
+                                 "default": "http://",
+                                 "options": {
+                                    "input_height": "25px"
+                                 }
                               },
                               "facebookURL": {
                                  "type":"string",
                                  "title":"FaceBook Link in Footer",
                                  "format": "markdown",
                                  "propertyOrder": 301,
-                                 "default": "http://"
+                                 "default": "http://",
+                                 "options": {
+                                    "input_height": "25px"
+                                 }
                               },
                               "youtubeURL": {
                                  "type":"string",
                                  "title":"YouTube Link in Footer",
                                  "format": "markdown",
                                  "propertyOrder": 302,
-                                 "default": "http://"
+                                 "default": "http://",
+                                 "options": {
+                                    "input_height": "25px"
+                                 }
                               }
                            }
                         },
@@ -780,6 +789,36 @@
                               },
                               "bodyContent":{
                                  "default":"{{stringEmptyHandler newReferral.referredUser.firstName onEmpty='A friend'}}​ is currently trying out {{companyName}}. As a thank you from us, if they become a paying user, you will automatically receive {{format-reward 'REFERRER' includeUnit=true includeContextualText=true}}"
+                              },
+                              "twitterURL": {
+                                 "type":"string",
+                                 "title":"Twitter Link in Footer",
+                                 "format": "markdown",
+                                 "propertyOrder": 300,
+                                 "default": "http://",
+                                 "options": {
+                                    "input_height": "25px"
+                                 }
+                              },
+                              "facebookURL": {
+                                 "type":"string",
+                                 "title":"FaceBook Link in Footer",
+                                 "format": "markdown",
+                                 "propertyOrder": 301,
+                                 "default": "http://",
+                                 "options": {
+                                    "input_height": "25px"
+                                 }
+                              },
+                              "youtubeURL": {
+                                 "type":"string",
+                                 "title":"YouTube Link in Footer",
+                                 "format": "markdown",
+                                 "propertyOrder": 302,
+                                 "default": "http://",
+                                 "options": {
+                                    "input_height": "25px"
+                                 }
                               }
                            }
                         },
@@ -850,6 +889,36 @@
                                           "INTEGRATION"
                                        ]
                                     }
+                                 }
+                              },
+                              "twitterURL": {
+                                 "type":"string",
+                                 "title":"Twitter Link in Footer",
+                                 "format": "markdown",
+                                 "propertyOrder": 300,
+                                 "default": "http://",
+                                 "options": {
+                                    "input_height": "25px"
+                                 }
+                              },
+                              "facebookURL": {
+                                 "type":"string",
+                                 "title":"FaceBook Link in Footer",
+                                 "format": "markdown",
+                                 "propertyOrder": 301,
+                                 "default": "http://",
+                                 "options": {
+                                    "input_height": "25px"
+                                 }
+                              },
+                              "youtubeURL": {
+                                 "type":"string",
+                                 "title":"YouTube Link in Footer",
+                                 "format": "markdown",
+                                 "propertyOrder": 302,
+                                 "default": "http://",
+                                 "options": {
+                                    "input_height": "25px"
                                  }
                               }
                            }
