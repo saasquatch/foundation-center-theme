@@ -722,7 +722,8 @@
                                  "propertyOrder": 300,
                                  "default": "http://",
                                  "options": {
-                                    "input_height": "25px"
+                                    "input_height": "25px",
+                                    "hidden":true
                                  }
                               },
                               "facebookURL": {
@@ -732,7 +733,8 @@
                                  "propertyOrder": 301,
                                  "default": "http://",
                                  "options": {
-                                    "input_height": "25px"
+                                    "input_height": "25px",
+                                    "hidden":true
                                  }
                               },
                               "youtubeURL": {
@@ -742,7 +744,8 @@
                                  "propertyOrder": 302,
                                  "default": "http://",
                                  "options": {
-                                    "input_height": "25px"
+                                    "input_height": "25px",
+                                    "hidden":true
                                  }
                               }
                            }
@@ -797,7 +800,8 @@
                                  "propertyOrder": 300,
                                  "default": "http://",
                                  "options": {
-                                    "input_height": "25px"
+                                    "input_height": "25px",
+                                    "hidden":true
                                  }
                               },
                               "facebookURL": {
@@ -807,7 +811,8 @@
                                  "propertyOrder": 301,
                                  "default": "http://",
                                  "options": {
-                                    "input_height": "25px"
+                                    "input_height": "25px",
+                                    "hidden":true
                                  }
                               },
                               "youtubeURL": {
@@ -817,7 +822,8 @@
                                  "propertyOrder": 302,
                                  "default": "http://",
                                  "options": {
-                                    "input_height": "25px"
+                                    "input_height": "25px",
+                                    "hidden":true
                                  }
                               }
                            }
@@ -898,7 +904,8 @@
                                  "propertyOrder": 300,
                                  "default": "http://",
                                  "options": {
-                                    "input_height": "25px"
+                                    "input_height": "25px",
+                                    "hidden":true
                                  }
                               },
                               "facebookURL": {
@@ -908,7 +915,8 @@
                                  "propertyOrder": 301,
                                  "default": "http://",
                                  "options": {
-                                    "input_height": "25px"
+                                    "input_height": "25px",
+                                    "hidden":true
                                  }
                               },
                               "youtubeURL": {
@@ -918,7 +926,8 @@
                                  "propertyOrder": 302,
                                  "default": "http://",
                                  "options": {
-                                    "input_height": "25px"
+                                    "input_height": "25px",
+                                    "hidden":true
                                  }
                               }
                            }
