@@ -973,7 +973,8 @@
                               "Courier",
                               "Tahoma",
                               "Verdana",
-                              "Georgia"
+                              "Georgia",
+                              "\"Open Sans\""
                            ],
                            "options":{
                               "enum_titles":[
@@ -984,7 +985,8 @@
                                  "Courier",
                                  "Tahoma",
                                  "Verdana",
-                                 "Georgia"
+                                 "Georgia",
+                                 "Open Sans"
                               ]
                            }
                         },
