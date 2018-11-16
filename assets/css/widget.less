@@ -107,6 +107,9 @@
   margin: 10px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600!important;
+  @media (max-width: @screen-sm-max) {
+    padding: 10px 0 0!important;
+  }
 }
 
 .squatch-lead {
@@ -226,7 +229,12 @@ body .squatch-container {
 
 .squatch-lead {
   border-top: none;
+  @media (max-width: @screen-sm-max) {
+    padding: 0 @body-padding-sm 0!important;
+  }
 }
+
+
 
 .squatch-referrals-title {
   @media (max-width: 499px) {
