@@ -280,9 +280,16 @@ subject: {{variables 'email.REFERRAL_STARTED.configuration.subject'}}
                                       </td>
                                     </tr>
                                     <tr>
+                                      <td align="center" class="squatch-content" style="font-size:0px;padding:5px 10px 20px 15px;word-break:break-word;">
+                                        <div style="font-family:'Open Sans', Helvetica, Arial;font-size:16px;line-height:30px;text-align:center;color:#000000;">
+                                          {{variables 'email.REFERRAL_STARTED.content.bodyContent'}}
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
                                       <td align="center" style="font-size:0px;padding:20px 10px 20px 15px;word-break:break-word;">
-                                        <div style="font-family:'Open Sans',Helvetica, Arial, sans-serif;font-size:16px;line-height:27px;text-align:center;color:#000000;"> Keep sharing your code and earn more discounts - <br>
-                                          <span style="font-weight: 700;">{{user.referralCode}}</span>
+                                        <div style="font-family:'Open Sans',Helvetica, Arial, sans-serif;font-size:16px;line-height:27px;text-align:center;color:#000000;">
+                                          {{variables 'email.REFERRAL_STARTED.content.shareCTA'}}
                                         </div>
                                       </td>
                                     </tr>
@@ -538,6 +545,13 @@ subject: {{variables 'email.REFERRAL_STARTED.configuration.subject'}}
           </tr>
         </table>
       <![endif]-->
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" style="font-size:0px;padding:20px 10px 20px 15px;word-break:break-word;">
+                                        <div style="font-family:'Open Sans',Helvetica, Arial, sans-serif;font-size:12px;line-height:27px;text-align:center;color:#ffffff;">
+                                          {{variables 'email.REFERRAL_STARTED.content.footer'}}
+                                        </div>
                                       </td>
                                     </tr>
                                   </table>
